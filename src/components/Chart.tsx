@@ -12,6 +12,7 @@ const Chart = () => {
 
   const options: ApexCharts.ApexOptions = {
     chart: {
+      height: 300,
       toolbar: {
         show: false,
       },

@@ -106,7 +106,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className="mt-4">
+          <div className="mt-4 h-[300px] bg-black/10 rounded-md">
             <Chart />
           </div>
         </Container>
