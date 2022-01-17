@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#131313] text-gray-100;
+  }
+
+  .link__active {
+    @apply text-green-500 before:bg-green-500 before:absolute before:top-0 before:bottom-0 before:left-0 before:w-2 before:rounded-r-md;
+  }
+}
